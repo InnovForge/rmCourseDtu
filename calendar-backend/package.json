@@ -1,0 +1,17 @@
+{
+  "name": "calendar-app",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.15",
+    "cheerio": "^1.0.0",
+    "hono": "^4.7.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250507.0",
+    "wrangler": "^4.4.0"
+  }
+}
