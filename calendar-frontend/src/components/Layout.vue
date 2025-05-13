@@ -107,7 +107,6 @@ watch(selectedAcademicYearId, async (newVal) => {
 
 const selectFruit = (fruit: string) => {
   selectedSemesterId.value = fruit;
-  console.log("Selected semester ID:", selectedSemesterId.value);
 };
 
 const searchQuery = ref("");

@@ -17,6 +17,7 @@ const academicContext = {
   selectedSemesterId,
   arrayCourse,
   dataCalendar,
+  academicProgram,
 };
 
 const BASE_URL = import.meta.env.VITE_BE;
